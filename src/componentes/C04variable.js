@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Variable = (msj)=>{
-    return(
+const C04variable = (msj) => {
+    return (
         <div>
-            <h1>hola mundo...lectura a una variavle</h1>
-            <h2>mensaje:{msj.xVariable}</h2>
+            <h1>Dando una lectura a una variable </h1>
+            <h2>Mensaje: {msj.xVariable}</h2>
         </div>
     );
 }
-export default Variable
+
+export default C04variable;

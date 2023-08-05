@@ -14,10 +14,10 @@ const Dobleestado = () => {
     return (
         <Fragment>
             <button onClick={()=>setValor(valor+1)}>Contador 1</button>
-            <span>Incremento de contador 1: {valor}</span>
+            <span> Incremento de contador 1: {valor}</span>
             <hr/>
             <button onClick={IncrementoDoss}>Contador 2</button>
-            <span>Incremento de contador 2: {numero}</span>
+            <span> Incremento de contador 2: {numero}</span>
         </Fragment>
     );
 }
